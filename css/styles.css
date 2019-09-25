@@ -1,5 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Francois+One&display=swap);
+
+#apn {
+    color: #FFFFFF;
+    font-family: 'Francois One', sans-serif;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background: #000000; /* Fallback color */
+    background: #00000080; /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 
 * {
     margin: 0;
@@ -126,11 +142,11 @@ margin: 4px;
 	font-size: 12px;
     position: fixed;
     width: 100%;
-    background: #518DC4;
+    background: #700202;
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    border-bottom: 1px solid #1342F5;
+    border-bottom: 1px solid #140909;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -146,18 +162,18 @@ background: transparent !important;
     }
 
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background: #518DC4;
+        background: #dad6d6;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #518DC4;
+    color: #dad6d6;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
     background: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #2213A3;
+	color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 color: #FFFFFF;
@@ -454,7 +470,7 @@ margin-top: 5px;
 background-color: #D6D6D6;
 }
 .progress .progress-bar {
-background-color: #CC4646;
+background-color: #071561;
 }
 /*Skills*/
 
@@ -563,7 +579,7 @@ display: inherit;
   color: #666;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li span.importo {
-  color: #468c1f;
+  color: #270a8d;
   font-size: 1.3em;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul {

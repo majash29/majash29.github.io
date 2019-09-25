@@ -30,6 +30,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
 </head>
 
 <body>
@@ -44,7 +45,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top logo"><b>Alvaro Perez Nino</b></a>
+                    <!--<a href="#" class="navbar-brand scroll-top logo"><b>Alvaro Perez Nino</b></a>-->
                 </div>
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
@@ -53,7 +54,6 @@
                         <li><a href="#aboutUs" class="scroll-link">Acerca de mi</a></li>
                         <li><a href="#skills" class="scroll-link">Habilidades</a></li>
                         <li><a href="#experience" class="scroll-link">Experiencia</a></li>
-                        <li><a href="#portfolio" class="scroll-link">I + D + i</a></li>
                         <li><a href="#contactUs" class="scroll-link">Contacto</a></li>
                     </ul>
                 </div>
@@ -67,54 +67,28 @@
     <div id="#top"></div>
     <section id="home">
         <div class="banner-container">
-            <img src="images/banner-bg.jpg" alt="banner" />
+            <img id="aperezn" src="images/banner-bg.jpg" alt="banner" width="900" height="598"/>
+            <div class="content">
+                    <h2 id="apn">Alvaro Perez Niño</h2>
+                    <h5>Docente e Investigador en el Area de Desarrollo de Software</h5>
+                    <h5>Amplia experiencia en el Desarrollo de Software Web, Aplicaciones Realidad Virtual y Aumentada</h5>
+                      </div>
             <div class="container banner-content">
-                <div id="da-slider" class="da-slider">
-                    <div class="da-slide">
-                        <h2>I + D + i</h2>
-                        <p>Desarrollo de proyectos de investigación aplicada dando respuesta a problemas concretos de la región.</p>
-                        <div class="da-img"></div>
-                    </div>
-                    <div class="da-slide">
-                        <h2>Desarrollo de Software</h2>
-                        <p>Desarrollo de aplicaciones para móvil, web y escritorio</p>
-                        <div class="da-img"></div>
-                    </div>
-                    <div class="da-slide">
-                        <h2>HSEQ</h2>
-                        <p>Implementación de Sistemas Integrados de Gestión</p>
-                        <div class="da-img"></div>
-                    </div>
-                    <div class="da-slide">
-                        <h2>Docencia</h2>
-                        <p>Instructor de desarrollo de software en SENA Regional Tolima</p>
-                        <div class="da-img"></div>
-                    </div>
-				<!--  <nav class="da-arrows">
-                        <span class="da-arrows-prev"></span>
-                        <span class="da-arrows-next"></span>
-                    </nav> -->
-                </div>
             </div>
         </div>
-    </section>
-    <section id="introText">
-        <div class="container">
-            <div class="text-center">
-            <h1>Sí, soy Ingeniero</h1>
-              <p>Ingeniero Electrónico y Magister (c) en Gerencia de la Calidad con más de 6 años en la docencia y desarrollo de software. Entusiasta profesor usando “flipped classroom”</p>
-            </div>
-        </div>
-
     </section>
     <!--About-->
     <section id="aboutUs" class="secPad">
         <div class="container">
             <div class="heading text-center">
                 <!-- Heading -->
-                <h2>Soy Jose Oviedo, ingeniero, docente, investigador</h2>
-                <p><strong>Magister (c) Gerencia de la Calidad</strong> - Universidad de Ibagué – Universidad Politécnica de Valencia</p>
-                <p><strong>Ingeniero Electrónico</strong> - Universidad de Ibagué</p>
+                <h2>Soy Alvaro Perez Niño, docente e investigador</h2>
+                <p>en el Area de <strong> Desarrollo de Software</strong></p>
+                <br><br>
+                <p><strong>Estudiante de Maestria (e) Gestion y Desarrollo de Proyectos de Software</strong> - Universidad Autonoma de Manizales</p>
+                <p><strong>Ingeniero de Sistemas</strong> - Universidad Cooperativa de Colombia</p>
+                <p><strong>Formación pedagógica </strong>en Orientación de los Procesos para la Ejecución de la Formación Profesional Integral, Formación por Proyectos y Sistemas de Gestión del Aprendizaje - LMS (Blackboard y Moodle)</p>
+                <p><strong>Experiencia Profesional </strong> Con cinco (05) años como Instructor de Formación para el Trabajo de Nivel Titulada y Complementaria – SENA Tolima, Dos (02) años de Docente Universitario de Pregado – Universidad de Ibagué y Dos (02) Años en Docencia en Investigación e Innovación para Estudiantes de la Básica Media - Facilitador Tecnoacademia Medellin </p>
             </div>
             <div class="row">
                 <!-- item -->
@@ -129,7 +103,7 @@
                 <div class="col-md-3 text-center tileBox">
                    <div class="txtHead"> <i class="fa fa-users"></i>
                     <h3>Docencia</h3></div>
-                    <p>Instructor de desarrollo de software en <a href="http://www.sena.edu.co" target="_blank">SENA Regional Tolima</a></p>
+                    <p>Instructor de desarrollo de software en <a href="http://www.sena.edu.co" target="_blank">SENA Regional Antioquia</a></p>
                 </div>
                 <!-- end: -->
                 
@@ -137,28 +111,21 @@
                 <div class="col-md-3 text-center tileBox">
                     <div class="txtHead"><i class="fa fa-magic"></i>
                     <h3>Desarrollo de Software</h3></div>
-                    <p>Desarrollo de aplicaciones para móvil, web y escritorio</p>
+                    <p>Desarrollo de aplicaciones Web, Realidad Virtual y Aumentada</p>
                 </div>
                 <!-- end: -->
                 
               <!-- item -->
                 <div class="col-md-3 text-center tileBox">
                     <div class="txtHead"><i class="fa fa-lightbulb-o"></i>
-                    <h3>HSEQ</h3></div>
-                    <p>Implementación de Sistemas Integrados de Gestión</p>
+                    <h3>Facilitador Tecnoacademia</h3></div>
+                    <p>Escenario de aprendizaje, para desarrollar competencias orientadas a la innovación, a través de la formación por proyectos.​​​​</p>
                 </div>
                 <!-- end: -->
-          </div>
-            <p>Ingeniero Electrónico y Magister (c) en Gerencia de la Calidad con más de 6 años en la docencia y desarrollo de software. Entusiasta profesor usando “flipped classroom”. Habilidades para para analizar, planificar, gestionar y evaluar sistemas integrados de gestión de la calidad de cualquier proceso, capacidad de liderazgo, de trabajo en equipo, de innovación y creatividad. Claridad conceptual y habilidades para la estructuración de tareas interdisciplinarias en situaciones donde ésta sea requerida. Interés en la actualización profesional.</p>
-            <p>Destacado por la creatividad y capacidad para analizar y evaluar científica, técnica y socialmente proyectos y programas en los campos de los sistemas digitales y comunicaciones. Claridad conceptual y habilidades para la estructuración y liderazgo de proyectos e integración de sistemas electrónicos e informáticos.</p>
-        </div>
     </section>
     <!--Quote-->
     <section id="quote" class="bg-parlex">
         <div class="parlex-back">
-            <div class="container secPad text-center">
-				<h2>“La calidad tiene que ser causada, no controlada”</h2><h3>P. Crosby</h3>
-            </div>
             <!--/.container-->
         </div>
     </section>
@@ -169,25 +136,66 @@
         <div class="heading text-center">
                 <!-- Heading -->
                 <h2>Mis habilidades</h2>
-                <p>Honestidad, disciplina, amor</p>
+                <p>Formación Profesional Integral, Formación por Proyectos y Sistemas de Gestión del Aprendizaje - LMS (Blackboard y Moodle), Mediante marcos de Trabajo Educativo como STEAM y de Software como SCRUM</p>
             </div>
         	<div class="row">
                 <div class="col-sm-6">
                     <h2>Programación</h2>
-                    <p class="mrgBtm20">
-                        Se necesita conocimiento, trabajo inteligente y dedicaión para hacer que grandes ideas cobren vida.
-                
-                  </p>
+                    <p class="mrgBtm20"></p>
+
+                    <!-- HTML5/CSS3 -->
                     <div class="row">
-                        <div class="col-md-2 skilltitle">.Net</div>
+                        <div class="col-md-2 skilltitle">HTML5/CSS3</div>
                         <div class="col-md-8">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">95% Complete</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- End HTML5/CSS3 -->
+                    
+                    <!-- PHP -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">PHP</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                    <!-- End PHP -->
+
+                    <!-- JavaScript -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">JavaScript</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Java Script -->
+
+                    <!-- .Net -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">.Net</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End .Net -->
+
+                    <!-- Java -->
                     <div class="row">
                         <div class="col-md-2 skilltitle">Java</div>
                         <div class="col-md-8">
@@ -198,38 +206,11 @@
                             </div>
                         </div>
                     </div>
-                  <div class="row">
-                        <div class="col-md-2 skilltitle">HTML5/CSS3</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                    <span class="sr-only">90% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- End Java -->
+
+                    <!-- C# -->
                     <div class="row">
-                        <div class="col-md-2 skilltitle">Swift</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">JavaScript</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">PHP</div>
+                        <div class="col-md-2 skilltitle">C#</div>
                         <div class="col-md-8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
@@ -237,73 +218,17 @@
                                 </div>
                             </div>
                         </div>
-                    </div>      
+                    </div>
+                    <!-- End C# -->
+
                 </div>
-                <div class="col-sm-6">
-                    <h2>HSEQ</h2>
-                    <p class="mrgBtm20">
-                        He estado los últimos 6 años ayudando a sacar el potencial de las personas a mi alrededor, haciendo realidad sus ideas y estoy listo para nuevos retos
-                
-                  </p>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">ISO 9001</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                    <span class="sr-only">90% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">ISO 14001</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">OHSAS 18001</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                    <span class="sr-only">85% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">ISO 22000</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Auditoría</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-md-6">
                     <h2>Docencia</h2>
-                    <p class="mrgBtm20">
-                        He estado los últimos 6 años ayudando a sacar el potencial de las personas a mi alrededor, haciendo realidad sus ideas y estoy listo para nuevos retos
-                
-                    </p>
+                    <p class="mrgBtm20"></p>
+
                     <div class="row">
-                        <div class="col-md-2 skilltitle">Flipped classroom</div>
+                        <div class="col-md-2 skilltitle">STEAM + H</div>
                         <div class="col-md-8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
@@ -312,8 +237,9 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
-                        <div class="col-md-2 skilltitle">Inteligencia interpersonal</div>
+                        <div class="col-md-2 skilltitle">Formacion por Proyectos</div>
                         <div class="col-md-8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
@@ -322,18 +248,10 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+
                     <div class="row">
-                        <div class="col-md-2 skilltitle">Metodología</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                    <span class="sr-only">85% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Uso de TIC's</div>
+                        <div class="col-md-2 skilltitle">Uso de TIC´s</div>
                         <div class="col-md-8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
@@ -342,8 +260,21 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
-                        <div class="col-md-2 skilltitle">Motivación</div>
+                        <div class="col-md-2 skilltitle">Trabajo en Equipo</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Motivación - Liderazgo</div>
                         <div class="col-md-8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
@@ -352,11 +283,19 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>        
     </section>
     
+    <!--Quote-->
+    <section id="quote" class="bg-parlex">
+            <div class="parlex-back">
+                <!--/.container-->
+            </div>
+    </section>
+
     <!--Experience-->
     <section id="experience" class="secPad">
     	<div class="container">     
@@ -380,8 +319,7 @@
     <div class="row timeline-movement">
     
         <div class="timeline-badge">
-            <span class="timeline-balloon-date-day">Dic</span>
-            <span class="timeline-balloon-date-month">2014</span>
+            <span class="timeline-balloon-date-day">Hoy</span>
         </div>
     
     
@@ -390,24 +328,9 @@
                 <div class="col-sm-11">
                     <div class="timeline-panel credits">
                         <ul class="timeline-panel-ul">
-                            <li><span class="importo">Sena Regional Tolima</span></li>
-                            <li><span class="causale">Instructor contratista del Centro de Comercio y Servicios en el área de informática. </span> </li>
-                            <li><p><small class="text-muted"> 23/02/2011 - Hoy</small></p> </li>
-                        </ul>
-                    </div>
-    
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-sm-6  timeline-item">
-            <div class="row">
-                <div class="col-sm-offset-1 col-sm-11">
-                    <div class="timeline-panel debits">
-                        <ul class="timeline-panel-ul">
-                            <li><span class="importo">En Línea Servicio de Alimentos</span></li>
-                            <li><span class="causale">Jefe de calidad. </span> </li>
-                            <li><p><small class="text-muted"> 01/01/2014 - Hoy</small></p> </li>
+                            <li><span class="importo">Investigacion y Desarrollo Tecnologico</span></li>
+                            <li><span class="causale">Facilitador Tecnoacademia Medellin para el Centro para el Desarrollo del habitat y de la Construccion en el SENA Regional Antioquia</span> </li>
+                            <li><p><small class="text-muted"> Agosto de 2017 - Hoy</small></p> </li>
                         </ul>
                     </div>
     
@@ -421,8 +344,8 @@
     
     
         <div class="timeline-badge">
-            <span class="timeline-balloon-date-day">Dic</span>
-            <span class="timeline-balloon-date-month">2011</span>
+            <span class="timeline-balloon-date-day">Jul</span>
+            <span class="timeline-balloon-date-month">2017</span>
         </div>
     
         <div class="col-sm-offset-6 col-sm-6  timeline-item">
@@ -430,9 +353,9 @@
                 <div class="col-sm-offset-1 col-sm-11">
                     <div class="timeline-panel debits">
                         <ul class="timeline-panel-ul">
-                            <li><span class="importo">Laboorum</span></li>
-                            <li><span class="causale">Instructor para el Centro de Comercio y Servicios del Sena Regional Tolima en el área de informática. </span> </li>
-                            <li><p><small class="text-muted"> 10/03/2013 - 18/02/2014</small></p> </li>
+                            <li><span class="importo">Formacion Virtual</span></li>
+                            <li><span class="causale">Coordinador de la Formacion Virtual y a Distancia para las Regionales del SENA (Caldas, Caqueta, Nariño y Tolima)</span> </li>
+                            <li><p><small class="text-muted"> Enero de 2015 - Julio de 2017</small></p> </li>
                         </ul>
                     </div>
     
@@ -445,8 +368,8 @@
     
     
         <div class="timeline-badge">
-            <span class="timeline-balloon-date-day">Mar</span>
-            <span class="timeline-balloon-date-month">2009</span>
+            <span class="timeline-balloon-date-day">Dic</span>
+            <span class="timeline-balloon-date-month">2014</span>
         </div>
            
         <div class="col-sm-6  timeline-item">
@@ -454,9 +377,9 @@
                 <div class="col-sm-11">
                     <div class="timeline-panel credits">
                         <ul class="timeline-panel-ul">
-                            <li><span class="importo">Desarrollando</span></li>
-                            <li><span class="causale">Desarrollo de aplicaciones para móviles, web y escritorio según las necesidades del cliente. </span> </li>
-                            <li><p><small class="text-muted"> 02/03/2009 - Hoy</small></p> </li>
+                            <li><span class="importo">Formacion Profesional</span></li>
+                            <li><span class="causale">Instructor de Formacion Titulada (Tecnicos / Tecnologos / Complementarios) en el area de Informatica para el Centro de Comercio y Servicios del SENA Regional Tolima.</span> </li>
+                            <li><p><small class="text-muted"> Febrero de 2008 - Diciembre de 2014</small></p> </li>
                         </ul>
                     </div>
     
@@ -468,130 +391,14 @@
     </div>
     </div>
     </div>
-    
     </section>
-    
-  
-   <!--Portfolio-->
-    <section id="portfolio" class="page-section section appear clearfix secPad">
-        <div class="container">
 
-            <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Investigación y Desarrollo</h2>
-                <p>Algo de mi trabajo pasado, presente y futuro</p>
-            </div>
-
-            <div class="row">
-                <nav id="filter" class="col-md-12 text-center">
-                    <ul>
-                        <li><a href="#" class="btn-theme btn-small" data-filter="*">Todo</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".id">Investigación</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".ap">Aplicaciones</a></li>
-                    </ul>
-                </nav>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
-
-                            <article class="col-sm-4 isotopeItem id">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/Arritmias.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="docs/DISEÑO Y CONSTRUCCIÓN DE UN EQUIPO PARA EL DIAGNÓSTICO DE ARRITMIAS CARDIACAS.pdf" class="fancybox" target="_blank">
-                                                <h5>Diseño y construcción de un sistema para el diagnóstico de arrítmias cardiacas</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="col-sm-4 isotopeItem id">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/Paciente 1.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="docs/Diseño-de-estrategias-para-la-mejora-del-servicio-al-paciente-en-los-centros-médicos-de-Ibagué.pdf" class="fancybox" target="_blank">
-                                                <h5>Diseño de estrategias para la mejora del servicio al paciente en las clínicas de Ibagué</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-
-                            <article class="col-sm-4 isotopeItem id">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/Paciente 2.jpg" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="docs/Diseño de estrategias para la mejora de servicio al cliente en la clínica Asotrauma.pdf" class="fancybox" target="_blank">
-                                                <h5>Diseño de estrategias de mejora de servicio al cliente en la clínica Asotrauma</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="col-sm-4 isotopeItem id">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/RA.jpg" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="#" class="fancybox">
-                                                <h5>Fortalecimiento del Sector Turístico del municipio de Melgar mediante la promoción y divulgación de su portafolio de Servicios utilizando Sistemas de Realidad Aumentada para Dispositivos Móviles.</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="col-sm-4 isotopeItem id">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/puntos fuertes y debiles.jpg" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="docs/Puntos%20fuertes%20y%20debiles%20de%20la%20FPC%20Sena.pdf" class="fancybox">
-                                                <h5>Puntos fuertes y débiles de la formación por competencias según los egresados del Sena</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4 isotopeItem ap">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/Equipo de estudiantes.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="docs/EquiposEstudiantes.msi" class="fancybox">
-                                                <h5>Software "Equipos de estudiantes"</h5>
-                                                <p>Aplicativo para crear grupos de estudiantes de manera aleatoria.</p>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4 isotopeItem ap">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/buses_ibague.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="https://play.google.com/store/apps/details?id=com.joseoviedo.busesibague" class="fancybox">
-                                                <h5>Buses Ibagué</h5>
-                                                <p>Aplicación para dispositivos android que facilita el recorrido en transporte público en la ciudad de Ibagué.</p>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+       <!--Quote-->
+       <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+            <!--/.container-->
         </div>
-    </section>
+    </section> 
 
 	<!--Contact -->
     <section id="contactUs" class="page-section secPad">
@@ -607,7 +414,7 @@
 
             <div class="row mrgn30">
 
-                <form method="post" action="php/contacto.php" id="contactfrm" role="form">
+                <form method="post" action="#" id="contactfrm" role="form">
 
                     <div class="col-sm-4">
                         <div class="form-group">
@@ -628,21 +435,23 @@
                         <div class="result"></div>
                     </div>
                 </form>
+
                 <div class="col-sm-4">
                     <h4><i class="fa fa-map-marker"></i></h4>
                     <address>
-                        Ibagué<br>
-                        Tolima<br>
+                        Medellin<br>
+                        Antioquia<br>
                         Colombia
                         <br>
                     </address>
                     <h4><i class="fa fa-phone"></i></h4>
                     <address>
-                        301 746 8855<br>
+                        (+57) 316 337 5107<br>
                     </address>
                     <h4><i class="fa fa-envelope"></i></h4>
                     <address>
-                        guitaroviedo46@gmail.com<br>
+                        aperezn@misena.edu.co<br>
+                        majash29@hotmail.com
                     </address>
                 </div>
             </div>
@@ -652,9 +461,11 @@
     <footer>
         <div class="container">
             <div class="social text-center">
-                <a href="https://twitter.com/jaoviedom"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.facebook.com/jose.oviedo"><i class="fa fa-facebook"></i></a>
-                <a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.instagram.com/majash29" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/majash29" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/aperezn" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/majash29" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://open.spotify.com/user/12176825855?si=izhSjgEDT72vfBtkApsecQ" target="_blank"><i class="fa fa-spotify"></i></a>
             </div>
 
             <div class="clear"></div>
